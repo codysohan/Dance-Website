@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b82d54;
+    height: 46px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    font-size: 19px;
+    padding: 0px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: lightgray;
+    border-bottom: 2px solid white;
+}
+
+/* Contact section here */
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 81px;
+
+
+}
+
+#contact-form h2{
+    margin-bottom: 12px;
+    font-size: 26px;
+}
+
+#contact-form input{
+    width: 30%;
+    margin: 12px 0px;
+    padding: 6px 7px;
+}
+
+#submit-btn{
+    color: white;
+    padding: 5px 155px;
+    background-color: #b82d54;
+    margin-top: 22px;
+    border: 2px solid #820808;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: #d10f46;
+
+}
+
+/* Footer  */
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px;
+    margin-top: 162px;
+}
+

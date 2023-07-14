@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js")
+
+block style 
+    link(rel="stylesheet", href="/static/contactStyle.css")
+
+block navbar 
+    nav#navbar
+        ul 
+            li #[a(href="/") Home ] 
+            li #[a(href="/") Services ] 
+            li #[a(href="/") Contact us ] 
+            li #[a(href="/") Join us ]
+
+block content        
+       
+        form(action="/contact", id="contact-form", method="post")
+             h2 Contact Form...
+
+             input(type="text", name="name", id="name", placeholder="Enter your name")
+ 
+             input(type="email", name="email", id="email", placeholder="Enter your Email Id")
+
+             input(type="phone", name="phone", id="phone", placeholder="Enter your Phone Number")
+
+             input(type="number", name="class", id="class", min="1", max="12", placeholder="Enter your Class")
+
+             input(type="submit", id="submit-btn", value="Submit Here!")
+
+
+block footer 
+    footer#footer
+        p &#169; www.DanceWithSohan.com All Rights Reserved!

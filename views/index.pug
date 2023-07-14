@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    title Sohan Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            li #[a(href="/") Home ] 
+            li #[a(href="/") Services ] 
+            li #[a(href="/") Dance class ] 
+            li #[a(href="/") Join us ]
+
+    section#sec-1
+        h2 Warm Greetings from Sohan!
+        p Eat Sleep Dance &amp; Repeat...
+
+    section#sec-2 
+        h2 Our Services 
+
+    section#sec-3 
+        h2 Explore Us 
+        div.box-container 
+          div.box
+            h3 This is the way
+            p#box-p-1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            img(src="/static/png/png1.png", alt="Image description" class= 'sec-3-png' id="sec-3-png-1")
+         
+          div.box
+            h3 Feel the Dance
+            p#box-p-2 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            img(src="/static/png/png2.png", alt="Image description" class= 'sec-3-png' id="sec-3-png-2")
+
+          div.box
+            h3 Dance is Love
+            p#box-p-3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            img(src="/static/png/png3.png", alt="Image description" class= 'sec-3-png' id="sec-3-png-3")
+    
+    footer#footer
+        p &#169; www.DanceWithSohan.com All Rights Reserved!
+
+    script 
+      include ../static/index.js
+
+      
+
